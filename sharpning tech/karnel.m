@@ -56,7 +56,7 @@ for k=1:length(original_files)
     %figure;
     subplot(1,2,2), imshow(g9);
     title('Sharpened')
-    baseFileName = sprintf('Image #%d.png', k);
+    baseFileName = sprintf('Image #%d.jpg', k);
     fullFileName = fullfile(ImageFolder, baseFileName);
     imwrite(g9, fullFileName);
     % imwrite(g9,'out_Kernel.jpg')
