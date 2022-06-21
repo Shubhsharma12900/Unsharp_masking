@@ -61,7 +61,7 @@ for k=1:length(original_files)
     for i=1:5
    
     
-    baseFileName = sprintf('Image #%d.png', i);
+    baseFileName = sprintf('Image #%d.jpg', i);
 %     ImageFolder='C:\Users\shubham sharma\Desktop\sharpning tech\unsharp_code2_output_images';
 
     fullFileName = fullfile(ImageFolder,name, baseFileName);
